@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Kaijus NFT</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+    <!-- Add Font Awesome for the Twitter icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Urban Kaijus</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#staking">Staking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Urban Kaijus NFT</h1>
+        <p id="typing-text"></p>
+        <a href="#gallery" class="cta">Explore Collection</a>
+    </section>
+
+    <section id="gallery">
+        <h2>Our Collection Preview</h2>
+        <div class="nft-grid" id="nft-gallery"></div>
+    </section>
+
+    <section id="about">
+        <h2>About Urban Kaijus</h2>
+        <p>Urban Kaijus is a collection of 2222 unique NFTs inspired by Japanese pop culture and cyberpunk cityscapes. Each Kaiju is a digital collectible living on ApeChain, ready to dominate the urban jungle. They are strong , they are apex predators but with an urban twist.</p>
+    </section>
+
+    <section id="team">
+        <h2>Our Team</h2>
+        <div class="team-grid">
+            <div class="team-card">
+                <h3>@CryptoPostage_</h3>
+                <p>Founder</p>
+                <a href="https://twitter.com/CryptoPostage_" target="_blank" class="team-link">Twitter</a>
+            </div>
+            <div class="team-card">
+                <h3>@theorangewater</h3>
+                <p>Collab Manager</p>
+                <a href="https://twitter.com/theorangewater" target="_blank" class="team-link">Twitter</a>
+            </div>
+            <div class="team-card">
+                <h3>@bitsam_btc</h3>
+                <p>Tech Consultant</p>
+                <a href="https://twitter.com/bitsam_btc" target="_blank" class="team-link">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap">
+        <h2>Roadmap</h2>
+        <div class="timeline">
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>1. Twitter and Website Launch</h3>
+                    <p>Official launch of our Twitter and website to kick off the Urban Kaijus journey.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>2. Whitelist Giveaways</h3>
+                    <p>FCFS Whitelist giveaways to different Apechain communities.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>3. Mint and Post Mint Out Giveaways</h3>
+                    <p>Rewards for participants post-MintOut phases.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>4. Staking Contract Launch and Holder Benefits Update</h3>
+                    <p>Launch of staking contracts with updated benefits for holders.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>5. $Kaiju Airdrop</h3>
+                    <p>Distribution of $Kaiju tokens to eligible holders.</p>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>6. Much More in Store as We Progress</h3>
+                    <p>Exciting updates and features to be revealed as we grow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="staking">
+        <h2>Staking</h2>
+        <p>Staking coming soon</p>
+        <a href="#" class="cta disabled">Stake</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Urban Kaijus. All rights reserved.</p>
+        <a href="https://twitter.com/Urban_Kaijus_" target="_blank" class="twitter-link">
+            <i class="fab fa-twitter"></i> @Urban_Kaijus_
+        </a>
+    </footer>
+
+    <!-- Modal for NFT Details -->
+    <div id="nft-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-image" src="" alt="NFT">
+            <h3 id="modal-name"></h3>
+            <p id="modal-details"></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
